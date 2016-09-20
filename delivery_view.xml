@@ -8,6 +8,7 @@
             <field name="arch" type="xml">
 			<field name="origin" position="before">
 				<field name="weight" />
+				<field name="dhl_declared_value" />
 			</field>
 	    </field>
 	</record>

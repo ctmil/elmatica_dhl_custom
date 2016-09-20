@@ -18,7 +18,7 @@
             <field name="model">multi.package.shipment</field>
             <field name="inherit_id" ref="multi_package_shipment.multi_package_shipment_tree"/>
             <field name="arch" type="xml">
-			<field name="warehouse_id" position="after">
+			<field name="weight" position="before">
 				<field name="origin" />
 			</field>
 	    </field>

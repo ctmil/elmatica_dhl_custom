@@ -32,4 +32,4 @@ class multi_package_shipment(models.Model):
 				return_value = return_value + picking_id.name
 		self.origin = return_value
 
-	origin = fields.Char(string='Origin',compute=_compute_origin)
+	origin = fields.Char(string='Origin',compute=_compute_origin,store=True)

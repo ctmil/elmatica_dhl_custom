@@ -24,6 +24,17 @@
 	    </field>
 	</record>
 
+        <record id="multi_package_shipment_search_dhl" model="ir.ui.view">
+            <field name="name">multi.package.shipment.search</field>
+            <field name="model">multi.package.shipment</field>
+            <field name="arch" type="xml">
+		<search string="Search BBX">
+			<field name="name" />
+			<field name="origin" />
+		</search>
+	    </field>
+	</record>
+
     </data>
 </openerp>
 
